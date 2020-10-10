@@ -1,0 +1,25 @@
+{
+  "name": "socket-presses-keys",
+  "version": "0.0.1",
+  "description": "A Socketconnection to Streamlabs, which presses Key on Events",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "streamlabs",
+    "socketio",
+    "alerts",
+    "twitch",
+    "streaming",
+    "dmx",
+    "automation"
+  ],
+  "author": "KayPure",
+  "license": "MIT",
+  "dependencies": {
+    "node-key-sender": "^1.0.11",
+    "robotjs": "^0.5.1",
+    "streamlabs-socket-client": "0.0.4"
+  }
+}
